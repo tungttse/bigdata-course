@@ -1,0 +1,1112 @@
+Number of Input-Splits: 4
+Number of Reducers 3
+Mapper 0 input
+Given a text-file input123, 1. The program will extract each "word" and form a key-value pair where the key is the "word" 
+Mapper 0 output
+<a, 1>
+<a, >
+<and, 1>
+<each, 1>
+<extract, 1>
+<file, 1>
+<form, 1>
+<given, 1>
+<is, 1>
+<key, 1>
+<key, >
+<pair, 1>
+<program, 1>
+<text, 1>
+<the, 1>
+<the, >
+<the, >
+<value, 1>
+<where, 1>
+<will, 1>
+<word, 1>
+<word, >
+22
+Mapper 1 input
+and value is integer one. Note that your program should treat Cat and cat as the same word. 2. Each pair is 
+Mapper 1 output
+<and, 1>
+<and, >
+<as, 1>
+<cat, 1>
+<cat, >
+<each, 1>
+<integer, 1>
+<is, 1>
+<is, >
+<note, 1>
+<one, 1>
+<pair, 1>
+<program, 1>
+<same, 1>
+<should, 1>
+<that, 1>
+<the, 1>
+<treat, 1>
+<value, 1>
+<word, 1>
+<your, 1>
+21
+Mapper 2 input
+inserted into a List. 3. Sort the List using "Collections". This may involve writing a comparator for the pair class. 4. Output 
+Mapper 2 output
+<a, 1>
+<a, >
+<class, 1>
+<collections, 1>
+<comparator, 1>
+<for, 1>
+<inserted, 1>
+<into, 1>
+<involve, 1>
+<list, 1>
+<list, >
+<may, 1>
+<output, 1>
+<pair, 1>
+<sort, 1>
+<the, 1>
+<the, >
+<this, 1>
+<using, 1>
+<writing, 1>
+20
+Mapper 3 input
+the List 5. Note that tokens such as input123, abc.txt, a23bc and abc_ptr are not words. However, key-value is two words. 
+Mapper 3 output
+<and, 1>
+<are, 1>
+<as, 1>
+<however, 1>
+<is, 1>
+<key, 1>
+<list, 1>
+<not, 1>
+<note, 1>
+<such, 1>
+<that, 1>
+<the, 1>
+<tokens, 1>
+<two, 1>
+<value, 1>
+<words, 1>
+<words, >
+17
+Pairs send from Mapper 0 Reducer 0
+<extract, 1>
+<given, 1>
+<text, 1>
+<the, 1>
+<the, >
+<the, >
+<word, 1>
+<word, >
+Pairs send from Mapper 0 Reducer 1
+<a, 1>
+<a, >
+<and, 1>
+<form, 1>
+<is, 1>
+<value, 1>
+Pairs send from Mapper 0 Reducer 2
+<each, 1>
+<file, 1>
+<key, 1>
+<key, >
+<pair, 1>
+<program, 1>
+<where, 1>
+<will, 1>
+Pairs send from Mapper 1 Reducer 0
+<cat, 1>
+<cat, >
+<note, 1>
+<should, 1>
+<the, 1>
+<word, 1>
+Pairs send from Mapper 1 Reducer 1
+<and, 1>
+<and, >
+<is, 1>
+<is, >
+<one, 1>
+<that, 1>
+<treat, 1>
+<value, 1>
+<your, 1>
+Pairs send from Mapper 1 Reducer 2
+<as, 1>
+<each, 1>
+<integer, 1>
+<pair, 1>
+<program, 1>
+<same, 1>
+Pairs send from Mapper 2 Reducer 0
+<class, 1>
+<for, 1>
+<list, 1>
+<list, >
+<may, 1>
+<sort, 1>
+<the, 1>
+<the, >
+<writing, 1>
+Pairs send from Mapper 2 Reducer 1
+<a, 1>
+<a, >
+<collections, 1>
+<inserted, 1>
+<into, 1>
+<using, 1>
+Pairs send from Mapper 2 Reducer 2
+<comparator, 1>
+<involve, 1>
+<output, 1>
+<pair, 1>
+<this, 1>
+Pairs send from Mapper 3 Reducer 0
+<are, 1>
+<list, 1>
+<note, 1>
+<such, 1>
+<the, 1>
+Pairs send from Mapper 3 Reducer 1
+<and, 1>
+<is, 1>
+<not, 1>
+<that, 1>
+<tokens, 1>
+<two, 1>
+<value, 1>
+<words, 1>
+<words, >
+Pairs send from Mapper 3 Reducer 2
+<as, 1>
+<however, 1>
+<key, 1>
+Reducer 0 input
+<a, [1, 1]>
+<and, [1]>
+<each, [1]>
+<extract, [1]>
+<file, [1]>
+<form, [1]>
+<given, [1]>
+<is, [1]>
+<key, [1, 1]>
+<pair, [1]>
+<program, [1]>
+<text, [1]>
+<the, [1, 1, 1]>
+<value, [1]>
+<where, [1]>
+<will, [1]>
+<word, [1, 1]>
+<extract, [1]>
+<given, [1]>
+<text, [1]>
+<the, [1, 1, 1]>
+<word, [1, 1]>
+22
+Reducer 1 input
+<a, [1, 1]>
+<and, [1]>
+<each, [1]>
+<extract, [1]>
+<file, [1]>
+<form, [1]>
+<given, [1]>
+<is, [1]>
+<key, [1, 1]>
+<pair, [1]>
+<program, [1]>
+<text, [1]>
+<the, [1, 1, 1]>
+<value, [1]>
+<where, [1]>
+<will, [1]>
+<word, [1, 1]>
+<extract, [1]>
+<given, [1]>
+<text, [1]>
+<the, [1, 1, 1]>
+<word, [1, 1]>
+<a, [1, 1]>
+<and, [1]>
+<form, [1]>
+<is, [1]>
+<value, [1]>
+27
+Reducer 2 input
+<a, [1, 1]>
+<and, [1]>
+<each, [1]>
+<extract, [1]>
+<file, [1]>
+<form, [1]>
+<given, [1]>
+<is, [1]>
+<key, [1, 1]>
+<pair, [1]>
+<program, [1]>
+<text, [1]>
+<the, [1, 1, 1]>
+<value, [1]>
+<where, [1]>
+<will, [1]>
+<word, [1, 1]>
+<extract, [1]>
+<given, [1]>
+<text, [1]>
+<the, [1, 1, 1]>
+<word, [1, 1]>
+<a, [1, 1]>
+<and, [1]>
+<form, [1]>
+<is, [1]>
+<value, [1]>
+<each, [1]>
+<file, [1]>
+<key, [1, 1]>
+<pair, [1]>
+<program, [1]>
+<where, [1]>
+<will, [1]>
+34
+Reducer 0 input
+<and, [1, 1]>
+<as, [1]>
+<cat, [1, 1]>
+<each, [1]>
+<integer, [1]>
+<is, [1, 1]>
+<note, [1]>
+<one, [1]>
+<pair, [1]>
+<program, [1]>
+<same, [1]>
+<should, [1]>
+<that, [1]>
+<the, [1]>
+<treat, [1]>
+<value, [1]>
+<word, [1]>
+<your, [1]>
+<cat, [1, 1]>
+<note, [1]>
+<should, [1]>
+<the, [1]>
+<word, [1]>
+23
+Reducer 1 input
+<and, [1, 1]>
+<as, [1]>
+<cat, [1, 1]>
+<each, [1]>
+<integer, [1]>
+<is, [1, 1]>
+<note, [1]>
+<one, [1]>
+<pair, [1]>
+<program, [1]>
+<same, [1]>
+<should, [1]>
+<that, [1]>
+<the, [1]>
+<treat, [1]>
+<value, [1]>
+<word, [1]>
+<your, [1]>
+<cat, [1, 1]>
+<note, [1]>
+<should, [1]>
+<the, [1]>
+<word, [1]>
+<and, [1, 1]>
+<is, [1, 1]>
+<one, [1]>
+<that, [1]>
+<treat, [1]>
+<value, [1]>
+<your, [1]>
+30
+Reducer 2 input
+<and, [1, 1]>
+<as, [1]>
+<cat, [1, 1]>
+<each, [1]>
+<integer, [1]>
+<is, [1, 1]>
+<note, [1]>
+<one, [1]>
+<pair, [1]>
+<program, [1]>
+<same, [1]>
+<should, [1]>
+<that, [1]>
+<the, [1]>
+<treat, [1]>
+<value, [1]>
+<word, [1]>
+<your, [1]>
+<cat, [1, 1]>
+<note, [1]>
+<should, [1]>
+<the, [1]>
+<word, [1]>
+<and, [1, 1]>
+<is, [1, 1]>
+<one, [1]>
+<that, [1]>
+<treat, [1]>
+<value, [1]>
+<your, [1]>
+<as, [1]>
+<each, [1]>
+<integer, [1]>
+<pair, [1]>
+<program, [1]>
+<same, [1]>
+36
+Reducer 0 input
+<a, [1, 1]>
+<class, [1]>
+<collections, [1]>
+<comparator, [1]>
+<for, [1]>
+<inserted, [1]>
+<into, [1]>
+<involve, [1]>
+<list, [1, 1]>
+<may, [1]>
+<output, [1]>
+<pair, [1]>
+<sort, [1]>
+<the, [1, 1]>
+<this, [1]>
+<using, [1]>
+<writing, [1]>
+<class, [1]>
+<for, [1]>
+<list, [1, 1]>
+<may, [1]>
+<sort, [1]>
+<the, [1, 1]>
+<writing, [1]>
+24
+Reducer 1 input
+<a, [1, 1]>
+<class, [1]>
+<collections, [1]>
+<comparator, [1]>
+<for, [1]>
+<inserted, [1]>
+<into, [1]>
+<involve, [1]>
+<list, [1, 1]>
+<may, [1]>
+<output, [1]>
+<pair, [1]>
+<sort, [1]>
+<the, [1, 1]>
+<this, [1]>
+<using, [1]>
+<writing, [1]>
+<class, [1]>
+<for, [1]>
+<list, [1, 1]>
+<may, [1]>
+<sort, [1]>
+<the, [1, 1]>
+<writing, [1]>
+<a, [1, 1]>
+<collections, [1]>
+<inserted, [1]>
+<into, [1]>
+<using, [1]>
+29
+Reducer 2 input
+<a, [1, 1]>
+<class, [1]>
+<collections, [1]>
+<comparator, [1]>
+<for, [1]>
+<inserted, [1]>
+<into, [1]>
+<involve, [1]>
+<list, [1, 1]>
+<may, [1]>
+<output, [1]>
+<pair, [1]>
+<sort, [1]>
+<the, [1, 1]>
+<this, [1]>
+<using, [1]>
+<writing, [1]>
+<class, [1]>
+<for, [1]>
+<list, [1, 1]>
+<may, [1]>
+<sort, [1]>
+<the, [1, 1]>
+<writing, [1]>
+<a, [1, 1]>
+<collections, [1]>
+<inserted, [1]>
+<into, [1]>
+<using, [1]>
+<comparator, [1]>
+<involve, [1]>
+<output, [1]>
+<pair, [1]>
+<this, [1]>
+34
+Reducer 0 input
+<and, [1]>
+<are, [1]>
+<as, [1]>
+<however, [1]>
+<is, [1]>
+<key, [1]>
+<list, [1]>
+<not, [1]>
+<note, [1]>
+<such, [1]>
+<that, [1]>
+<the, [1]>
+<tokens, [1]>
+<two, [1]>
+<value, [1]>
+<words, [1, 1]>
+<are, [1]>
+<list, [1]>
+<note, [1]>
+<such, [1]>
+<the, [1]>
+21
+Reducer 1 input
+<and, [1]>
+<are, [1]>
+<as, [1]>
+<however, [1]>
+<is, [1]>
+<key, [1]>
+<list, [1]>
+<not, [1]>
+<note, [1]>
+<such, [1]>
+<that, [1]>
+<the, [1]>
+<tokens, [1]>
+<two, [1]>
+<value, [1]>
+<words, [1, 1]>
+<are, [1]>
+<list, [1]>
+<note, [1]>
+<such, [1]>
+<the, [1]>
+<and, [1]>
+<is, [1]>
+<not, [1]>
+<that, [1]>
+<tokens, [1]>
+<two, [1]>
+<value, [1]>
+<words, [1, 1]>
+29
+Reducer 2 input
+<and, [1]>
+<are, [1]>
+<as, [1]>
+<however, [1]>
+<is, [1]>
+<key, [1]>
+<list, [1]>
+<not, [1]>
+<note, [1]>
+<such, [1]>
+<that, [1]>
+<the, [1]>
+<tokens, [1]>
+<two, [1]>
+<value, [1]>
+<words, [1, 1]>
+<are, [1]>
+<list, [1]>
+<note, [1]>
+<such, [1]>
+<the, [1]>
+<and, [1]>
+<is, [1]>
+<not, [1]>
+<that, [1]>
+<tokens, [1]>
+<two, [1]>
+<value, [1]>
+<words, [1, 1]>
+<as, [1]>
+<however, [1]>
+<key, [1]>
+32
+Reducer 0 output
+<a, 3>
+<and, 2>
+<each, 2>
+<extract, 2>
+<file, 2>
+<form, 2>
+<given, 2>
+<is, 2>
+<key, 3>
+<pair, 2>
+<program, 2>
+<text, 2>
+<the, 4>
+<value, 2>
+<where, 2>
+<will, 2>
+<word, 3>
+<extract, 2>
+<given, 2>
+<text, 2>
+<the, 4>
+<word, 3>
+<a, 3>
+<and, 2>
+<form, 2>
+<is, 2>
+<value, 2>
+<each, 2>
+<file, 2>
+<key, 3>
+<pair, 2>
+<program, 2>
+<where, 2>
+<will, 2>
+<extract, 2>
+<given, 2>
+<text, 2>
+<the, 4>
+<word, 3>
+Reducer 1 output
+<a, 3>
+<and, 2>
+<each, 2>
+<extract, 2>
+<file, 2>
+<form, 2>
+<given, 2>
+<is, 2>
+<key, 3>
+<pair, 2>
+<program, 2>
+<text, 2>
+<the, 4>
+<value, 2>
+<where, 2>
+<will, 2>
+<word, 3>
+<extract, 2>
+<given, 2>
+<text, 2>
+<the, 4>
+<word, 3>
+<a, 3>
+<and, 2>
+<form, 2>
+<is, 2>
+<value, 2>
+<each, 2>
+<file, 2>
+<key, 3>
+<pair, 2>
+<program, 2>
+<where, 2>
+<will, 2>
+<extract, 2>
+<given, 2>
+<text, 2>
+<the, 4>
+<word, 3>
+<a, 3>
+<and, 2>
+<form, 2>
+<is, 2>
+<value, 2>
+Reducer 2 output
+<a, 3>
+<and, 2>
+<each, 2>
+<extract, 2>
+<file, 2>
+<form, 2>
+<given, 2>
+<is, 2>
+<key, 3>
+<pair, 2>
+<program, 2>
+<text, 2>
+<the, 4>
+<value, 2>
+<where, 2>
+<will, 2>
+<word, 3>
+<extract, 2>
+<given, 2>
+<text, 2>
+<the, 4>
+<word, 3>
+<a, 3>
+<and, 2>
+<form, 2>
+<is, 2>
+<value, 2>
+<each, 2>
+<file, 2>
+<key, 3>
+<pair, 2>
+<program, 2>
+<where, 2>
+<will, 2>
+<extract, 2>
+<given, 2>
+<text, 2>
+<the, 4>
+<word, 3>
+<a, 3>
+<and, 2>
+<form, 2>
+<is, 2>
+<value, 2>
+<each, 2>
+<file, 2>
+<key, 3>
+<pair, 2>
+<program, 2>
+<where, 2>
+<will, 2>
+Reducer 0 output
+<and, 3>
+<as, 2>
+<cat, 3>
+<each, 2>
+<integer, 2>
+<is, 3>
+<note, 2>
+<one, 2>
+<pair, 2>
+<program, 2>
+<same, 2>
+<should, 2>
+<that, 2>
+<the, 2>
+<treat, 2>
+<value, 2>
+<word, 2>
+<your, 2>
+<cat, 3>
+<note, 2>
+<should, 2>
+<the, 2>
+<word, 2>
+<and, 3>
+<is, 3>
+<one, 2>
+<that, 2>
+<treat, 2>
+<value, 2>
+<your, 2>
+<as, 2>
+<each, 2>
+<integer, 2>
+<pair, 2>
+<program, 2>
+<same, 2>
+<cat, 3>
+<note, 2>
+<should, 2>
+<the, 2>
+<word, 2>
+Reducer 1 output
+<and, 3>
+<as, 2>
+<cat, 3>
+<each, 2>
+<integer, 2>
+<is, 3>
+<note, 2>
+<one, 2>
+<pair, 2>
+<program, 2>
+<same, 2>
+<should, 2>
+<that, 2>
+<the, 2>
+<treat, 2>
+<value, 2>
+<word, 2>
+<your, 2>
+<cat, 3>
+<note, 2>
+<should, 2>
+<the, 2>
+<word, 2>
+<and, 3>
+<is, 3>
+<one, 2>
+<that, 2>
+<treat, 2>
+<value, 2>
+<your, 2>
+<as, 2>
+<each, 2>
+<integer, 2>
+<pair, 2>
+<program, 2>
+<same, 2>
+<cat, 3>
+<note, 2>
+<should, 2>
+<the, 2>
+<word, 2>
+<and, 3>
+<is, 3>
+<one, 2>
+<that, 2>
+<treat, 2>
+<value, 2>
+<your, 2>
+Reducer 2 output
+<and, 3>
+<as, 2>
+<cat, 3>
+<each, 2>
+<integer, 2>
+<is, 3>
+<note, 2>
+<one, 2>
+<pair, 2>
+<program, 2>
+<same, 2>
+<should, 2>
+<that, 2>
+<the, 2>
+<treat, 2>
+<value, 2>
+<word, 2>
+<your, 2>
+<cat, 3>
+<note, 2>
+<should, 2>
+<the, 2>
+<word, 2>
+<and, 3>
+<is, 3>
+<one, 2>
+<that, 2>
+<treat, 2>
+<value, 2>
+<your, 2>
+<as, 2>
+<each, 2>
+<integer, 2>
+<pair, 2>
+<program, 2>
+<same, 2>
+<cat, 3>
+<note, 2>
+<should, 2>
+<the, 2>
+<word, 2>
+<and, 3>
+<is, 3>
+<one, 2>
+<that, 2>
+<treat, 2>
+<value, 2>
+<your, 2>
+<as, 2>
+<each, 2>
+<integer, 2>
+<pair, 2>
+<program, 2>
+<same, 2>
+Reducer 0 output
+<a, 3>
+<class, 2>
+<collections, 2>
+<comparator, 2>
+<for, 2>
+<inserted, 2>
+<into, 2>
+<involve, 2>
+<list, 3>
+<may, 2>
+<output, 2>
+<pair, 2>
+<sort, 2>
+<the, 3>
+<this, 2>
+<using, 2>
+<writing, 2>
+<class, 2>
+<for, 2>
+<list, 3>
+<may, 2>
+<sort, 2>
+<the, 3>
+<writing, 2>
+<a, 3>
+<collections, 2>
+<inserted, 2>
+<into, 2>
+<using, 2>
+<comparator, 2>
+<involve, 2>
+<output, 2>
+<pair, 2>
+<this, 2>
+<class, 2>
+<for, 2>
+<list, 3>
+<may, 2>
+<sort, 2>
+<the, 3>
+<writing, 2>
+Reducer 1 output
+<a, 3>
+<class, 2>
+<collections, 2>
+<comparator, 2>
+<for, 2>
+<inserted, 2>
+<into, 2>
+<involve, 2>
+<list, 3>
+<may, 2>
+<output, 2>
+<pair, 2>
+<sort, 2>
+<the, 3>
+<this, 2>
+<using, 2>
+<writing, 2>
+<class, 2>
+<for, 2>
+<list, 3>
+<may, 2>
+<sort, 2>
+<the, 3>
+<writing, 2>
+<a, 3>
+<collections, 2>
+<inserted, 2>
+<into, 2>
+<using, 2>
+<comparator, 2>
+<involve, 2>
+<output, 2>
+<pair, 2>
+<this, 2>
+<class, 2>
+<for, 2>
+<list, 3>
+<may, 2>
+<sort, 2>
+<the, 3>
+<writing, 2>
+<a, 3>
+<collections, 2>
+<inserted, 2>
+<into, 2>
+<using, 2>
+Reducer 2 output
+<a, 3>
+<class, 2>
+<collections, 2>
+<comparator, 2>
+<for, 2>
+<inserted, 2>
+<into, 2>
+<involve, 2>
+<list, 3>
+<may, 2>
+<output, 2>
+<pair, 2>
+<sort, 2>
+<the, 3>
+<this, 2>
+<using, 2>
+<writing, 2>
+<class, 2>
+<for, 2>
+<list, 3>
+<may, 2>
+<sort, 2>
+<the, 3>
+<writing, 2>
+<a, 3>
+<collections, 2>
+<inserted, 2>
+<into, 2>
+<using, 2>
+<comparator, 2>
+<involve, 2>
+<output, 2>
+<pair, 2>
+<this, 2>
+<class, 2>
+<for, 2>
+<list, 3>
+<may, 2>
+<sort, 2>
+<the, 3>
+<writing, 2>
+<a, 3>
+<collections, 2>
+<inserted, 2>
+<into, 2>
+<using, 2>
+<comparator, 2>
+<involve, 2>
+<output, 2>
+<pair, 2>
+<this, 2>
+Reducer 0 output
+<and, 2>
+<are, 2>
+<as, 2>
+<however, 2>
+<is, 2>
+<key, 2>
+<list, 2>
+<not, 2>
+<note, 2>
+<such, 2>
+<that, 2>
+<the, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+<are, 2>
+<list, 2>
+<note, 2>
+<such, 2>
+<the, 2>
+<and, 2>
+<is, 2>
+<not, 2>
+<that, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+<as, 2>
+<however, 2>
+<key, 2>
+<are, 2>
+<list, 2>
+<note, 2>
+<such, 2>
+<the, 2>
+Reducer 1 output
+<and, 2>
+<are, 2>
+<as, 2>
+<however, 2>
+<is, 2>
+<key, 2>
+<list, 2>
+<not, 2>
+<note, 2>
+<such, 2>
+<that, 2>
+<the, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+<are, 2>
+<list, 2>
+<note, 2>
+<such, 2>
+<the, 2>
+<and, 2>
+<is, 2>
+<not, 2>
+<that, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+<as, 2>
+<however, 2>
+<key, 2>
+<are, 2>
+<list, 2>
+<note, 2>
+<such, 2>
+<the, 2>
+<and, 2>
+<is, 2>
+<not, 2>
+<that, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+Reducer 2 output
+<and, 2>
+<are, 2>
+<as, 2>
+<however, 2>
+<is, 2>
+<key, 2>
+<list, 2>
+<not, 2>
+<note, 2>
+<such, 2>
+<that, 2>
+<the, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+<are, 2>
+<list, 2>
+<note, 2>
+<such, 2>
+<the, 2>
+<and, 2>
+<is, 2>
+<not, 2>
+<that, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+<as, 2>
+<however, 2>
+<key, 2>
+<are, 2>
+<list, 2>
+<note, 2>
+<such, 2>
+<the, 2>
+<and, 2>
+<is, 2>
+<not, 2>
+<that, 2>
+<tokens, 2>
+<two, 2>
+<value, 2>
+<words, 3>
+<as, 2>
+<however, 2>
+<key, 2>
